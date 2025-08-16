@@ -7,7 +7,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class Utils {
-    public static void saveAsJPGWithBlackBackground(BufferedImage image, String outputPath, int x_margin, int y_margin) {
+    public static void saveAsJPG(BufferedImage image, String outputPath, int x_margin, int y_margin) {
         if (image == null || outputPath == null) {
             throw new IllegalArgumentException("Image and output path cannot be null.");
         }

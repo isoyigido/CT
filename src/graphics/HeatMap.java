@@ -112,7 +112,7 @@ public class HeatMap {
         generateFigureImage();
 
 //        Saves the figure image on the output folder with the set margins
-        Utils.saveAsJPGWithBlackBackground(figure_image, "output/figure.jpg", 64, 64);
+        Utils.saveAsJPG(figure_image, "output/figure.jpg", 64, 64);
     }
 
     public void generateFigureImage() {
